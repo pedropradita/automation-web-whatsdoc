@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="script.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="LoginDoctorPage(failed)">
+    <classes>
+      <class name="script.LoginDoctorTest">
+        <methods>
+          <include name="AfMet"/>
+          <include name="BefMet"/>
+          <include name="LoginAlertMismatch"/>
+        </methods>
+      </class> <!-- script.LoginDoctorTest -->
+    </classes>
+  </test> <!-- LoginDoctorPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

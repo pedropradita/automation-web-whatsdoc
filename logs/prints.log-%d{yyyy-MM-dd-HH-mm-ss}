@@ -1,0 +1,10 @@
+09:39:37.281 [TestNG] INFO  resources.Base - Forgot pin URL is right https://app.whatsdoc.com/doctor/forgot
+09:39:39.350 [TestNG] INFO  resources.Base - The link with https://app.whatsdoc.com/doctor/forgot is status ok with code 200
+09:40:07.560 [TestNG] INFO  resources.Base - Phone alert is enable Minimum is 4 digits
+09:40:07.597 [TestNG] INFO  resources.Base - Pin alert is enable Must be 6 digits
+09:40:54.250 [TestNG] INFO  resources.Base - Mismatch alert is enable Phone number or PIN mismatch, please try again, or reach out to contact@hiwhatsdoc.com.
+09:41:37.188 [TestNG] INFO  resources.Base - Phone alert is enable This field is Required
+09:41:37.228 [TestNG] INFO  resources.Base - Pin alert is enable This field is Required
+09:42:18.383 [TestNG] INFO  resources.Base - Suspend alert is enable Account suspended! Please try again later, or reach out to contact@hiwhatsdoc.com.
+09:42:57.065 [TestNG] INFO  resources.Base - Invalid user alert is enable User not found
+09:43:33.293 [TestNG] INFO  resources.Base - Waiting activation alert is enable Pending account activation, please try again later, or reach out to contact@hiwhatsdoc.com.

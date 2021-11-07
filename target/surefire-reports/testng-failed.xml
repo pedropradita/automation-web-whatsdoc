@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="brick.Listeners"/>
+  </listeners>
+  <test parallel="tests" name="LoginPage(failed)">
+    <classes>
+      <class name="brick.BrickRegisterTest">
+        <methods>
+          <include name="BefMet"/>
+          <include name="AfMet"/>
+        </methods>
+      </class> <!-- brick.BrickRegisterTest -->
+      <class name="brick.BrickLoginTest">
+        <methods>
+          <include name="AfMet"/>
+          <include name="ForgotPasswordTextLink"/>
+          <include name="BefMet"/>
+        </methods>
+      </class> <!-- brick.BrickLoginTest -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+  <test parallel="tests" name="RegisterPage(failed)">
+    <classes>
+      <class name="brick.BrickRegisterTest">
+        <methods>
+          <include name="FullNameAlert"/>
+          <include name="PhoneNumberText"/>
+          <include name="PasswordAlert"/>
+          <include name="EmailText"/>
+          <include name="EmailAlert"/>
+          <include name="AddressText"/>
+          <include name="ConfirmPasswordAlert"/>
+          <include name="LastNameAlert"/>
+          <include name="BefMet"/>
+          <include name="AfMet"/>
+        </methods>
+      </class> <!-- brick.BrickRegisterTest -->
+      <class name="brick.BrickLoginTest">
+        <methods>
+          <include name="AfMet"/>
+          <include name="BefMet"/>
+        </methods>
+      </class> <!-- brick.BrickLoginTest -->
+    </classes>
+  </test> <!-- RegisterPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
