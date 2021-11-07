@@ -30,17 +30,17 @@
 ```
 
 ##How to run in Windows
-'''
+```
 1. Clone github
 2. Open command prompt
 3. Cd to folder
 4. Run in headless use this : mvn test -PRegression -Dbrowser=chromeheadless
 5. Run in browser user this : mvn test -PRegression -Dbrowser=chrome
-'''
+```
 
 ##How to check report HTML
-'''
+```
 1. Open folder 
 2. Open folder reports
 3. Click report.html
-'''
+```
