@@ -35,7 +35,7 @@
 2. Open command prompt
 3. Cd to folder
 4. Run in headless use this : mvn test -PRegression -Dbrowser=chromeheadless
-5. Run in browser user this : mvn test -PRegression -Dbrowser=chrome
+5. Run in browser use this : mvn test -PRegression -Dbrowser=chrome
 ```
 
 ## How to check report HTML
